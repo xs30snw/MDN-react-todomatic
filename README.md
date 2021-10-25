@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# MDN TodoMatic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the tutorial found in the documentation at [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started). TodoMatic is a simple SPA, an implementation of which is intetded to show a little bit of detail about a particilar frontend framework. The project includes use cases of **useState**, **useRef** and **useEffect** hooks, shows how application can be divided into separate components, adopts [Nano ID](https://github.com/ai/nanoid) library to make unique element keys.
 
-## Available Scripts
+The project was deployed to GitHub with the help of [react-gh-pages](https://github.com/gitname/react-gh-pages) package. The master branch contains the app's source code (the code the app's developers edit), and the gh-pages branch contains a built version of the app (i.e. the code that GitHub Pages serves to the app's visitors).
 
-In the project directory, you can run:
+- Live Site URL: [GitHub Pages](https://xs30snw.github.io/MDN-react-todomatic/)
 
-### `yarn start`
+## Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](./screenshot.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Ideas for improvements
+- [ ] move the *usePrevious()* function into its own file, export it from that file, and import it where you need it.
