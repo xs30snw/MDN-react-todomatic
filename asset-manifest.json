@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MDN-react-todomatic/static/css/main.73f37888.chunk.css",
+    "main.js": "/MDN-react-todomatic/static/js/main.58e81367.chunk.js",
+    "main.js.map": "/MDN-react-todomatic/static/js/main.58e81367.chunk.js.map",
+    "runtime-main.js": "/MDN-react-todomatic/static/js/runtime-main.a77f04ff.js",
+    "runtime-main.js.map": "/MDN-react-todomatic/static/js/runtime-main.a77f04ff.js.map",
+    "static/js/2.682488c3.chunk.js": "/MDN-react-todomatic/static/js/2.682488c3.chunk.js",
+    "static/js/2.682488c3.chunk.js.map": "/MDN-react-todomatic/static/js/2.682488c3.chunk.js.map",
+    "index.html": "/MDN-react-todomatic/index.html",
+    "static/css/main.73f37888.chunk.css.map": "/MDN-react-todomatic/static/css/main.73f37888.chunk.css.map",
+    "static/js/2.682488c3.chunk.js.LICENSE.txt": "/MDN-react-todomatic/static/js/2.682488c3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a77f04ff.js",
+    "static/js/2.682488c3.chunk.js",
+    "static/css/main.73f37888.chunk.css",
+    "static/js/main.58e81367.chunk.js"
+  ]
+}
